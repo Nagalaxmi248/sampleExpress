@@ -13,3 +13,7 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
     res.send("Contact us at contact@gmail.com");
 });
+
+app.listen('/', (req, res) => {
+    console.log(`Server is running on ${port}`);
+})
